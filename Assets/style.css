@@ -1,0 +1,70 @@
+body {
+    font: 20px Arial, sans-serif;
+    background-color: rgb(194, 194, 194);
+    width: 700px;
+    margin: auto;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 45px;
+}
+
+label, h1, h2 {
+    color:rgb(0, 0, 0);
+}
+
+label {
+    font-size: 19px;
+}
+
+
+
+#campo {
+    background-color: rgb(167, 165, 165);
+    padding: 15px 20px;
+    border: 2px solid black;
+    margin: 100px;
+    border-radius: 15px ;
+}
+
+.form-control {
+    margin: 3px 0px 15px 10px;
+    width: 90%;
+}
+
+#formulario {
+    margin-top: 60px;
+}
+
+#btnSubmit {
+    font-size: 19px;
+    margin-left: 75%;
+    margin-top: 15px;
+    width: 25%;
+    height: 37px;
+    background-color: rgb(201, 201, 61);
+    color: black;
+    border-radius: 5px;
+    
+}
+
+#btnSubmit:hover {
+    transform: scale(1.02);
+    transition: all 0.0s;
+    box-shadow: 1.6px 1.6px 1.6px 1.6px grey;
+}
+
+p.imamge {
+    background-image: url(img_csite.jpg);
+    background-position: top left;
+    padding-left: 10px;
+}
+
+.csite {
+    position: fixed;
+    top: 120px;
+    margin-left: -13px;
+    width: 110px;
+}
